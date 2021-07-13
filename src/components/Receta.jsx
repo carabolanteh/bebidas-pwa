@@ -36,7 +36,7 @@ const Receta = ({receta}) => {
   const { setIdReceta, getReceta, setGetReceta } = useContext(ModalContext);
 
   // configuracion del modal de materialUI
-  const [modalStyle, setModalStyle] = useState(getModalStyle);
+  const [modalStyle] = useState(getModalStyle);
   const [open, setOpen] = useState(false);
 
   const classes = useStyles();
